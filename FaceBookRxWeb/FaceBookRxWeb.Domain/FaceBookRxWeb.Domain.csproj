@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\FaceBookRxWeb.BoundedContext\FaceBookRxWeb.BoundedContext.csproj" />
+    <ProjectReference Include="..\FaceBookRxWeb.UnitOfWork\FaceBookRxWeb.UnitOfWork.csproj" />
+    <ProjectReference Include="..\FaceBookRxWeb.Models\FaceBookRxWeb.Models.csproj" />
+    <ProjectReference Include="..\FaceBookRxWeb.Infrastructure\FaceBookRxWeb.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>
