@@ -6,3 +6,11 @@ C:\Users\Gagan\source\repos\FaceBookRxWebApplication\FaceBookRxWeb\FaceBookRxWeb
 C:\Users\Gagan\source\repos\FaceBookRxWebApplication\FaceBookRxWeb\FaceBookRxWeb.Models\obj\Debug\netcoreapp3.1\FaceBookRxWeb.Models.AssemblyInfo.cs
 C:\Users\Gagan\source\repos\FaceBookRxWebApplication\FaceBookRxWeb\FaceBookRxWeb.Models\obj\Debug\netcoreapp3.1\FaceBookRxWeb.Models.dll
 C:\Users\Gagan\source\repos\FaceBookRxWebApplication\FaceBookRxWeb\FaceBookRxWeb.Models\obj\Debug\netcoreapp3.1\FaceBookRxWeb.Models.pdb
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication2\FaceBookRxWeb\FaceBookRxWeb.Models\obj\Debug\netcoreapp3.1\FaceBookRxWeb.Models.csprojAssemblyReference.cache
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication2\FaceBookRxWeb\FaceBookRxWeb.Models\obj\Debug\netcoreapp3.1\FaceBookRxWeb.Models.AssemblyInfoInputs.cache
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication2\FaceBookRxWeb\FaceBookRxWeb.Models\obj\Debug\netcoreapp3.1\FaceBookRxWeb.Models.AssemblyInfo.cs
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication2\FaceBookRxWeb\FaceBookRxWeb.Models\obj\Debug\netcoreapp3.1\FaceBookRxWeb.Models.dll
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication2\FaceBookRxWeb\FaceBookRxWeb.Models\obj\Debug\netcoreapp3.1\FaceBookRxWeb.Models.pdb
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication2\FaceBookRxWeb\FaceBookRxWeb.Models\bin\Debug\netcoreapp3.1\FaceBookRxWeb.Models.deps.json
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication2\FaceBookRxWeb\FaceBookRxWeb.Models\bin\Debug\netcoreapp3.1\FaceBookRxWeb.Models.dll
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication2\FaceBookRxWeb\FaceBookRxWeb.Models\bin\Debug\netcoreapp3.1\FaceBookRxWeb.Models.pdb

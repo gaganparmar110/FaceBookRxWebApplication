@@ -6210,11 +6210,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication2\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj",
       "projectName": "FaceBookRxWeb.Models",
-      "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj",
+      "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication2\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj",
       "packagesPath": "C:\\Users\\Gagan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Models\\obj\\",
+      "outputPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication2\\FaceBookRxWeb\\FaceBookRxWeb.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gagan\\AppData\\Roaming\\NuGet\\NuGet.Config",

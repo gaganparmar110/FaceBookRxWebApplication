@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\FaceBookRxWeb.BoundedContext.csproj": {}
+    "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication2\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\FaceBookRxWeb.BoundedContext.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\FaceBookRxWeb.BoundedContext.csproj": {
+    "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication2\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\FaceBookRxWeb.BoundedContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\FaceBookRxWeb.BoundedContext.csproj",
+        "projectUniqueName": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication2\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\FaceBookRxWeb.BoundedContext.csproj",
         "projectName": "FaceBookRxWeb.BoundedContext",
-        "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\FaceBookRxWeb.BoundedContext.csproj",
+        "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication2\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\FaceBookRxWeb.BoundedContext.csproj",
         "packagesPath": "C:\\Users\\Gagan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\obj\\",
+        "outputPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication2\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gagan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj": {
-                "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj"
+              "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication2\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj": {
+                "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication2\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj": {
+    "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication2\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication2\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj",
         "projectName": "FaceBookRxWeb.Models",
-        "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj",
+        "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication2\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj",
         "packagesPath": "C:\\Users\\Gagan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Models\\obj\\",
+        "outputPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication2\\FaceBookRxWeb\\FaceBookRxWeb.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gagan\\AppData\\Roaming\\NuGet\\NuGet.Config",

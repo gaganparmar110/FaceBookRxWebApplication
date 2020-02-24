@@ -23,7 +23,7 @@ namespace FaceBookRxWeb.Models.Main
         [Required]
 		#endregion CoverPhoto Annotations
 
-        public string CoverPhoto { get; set; }
+        public string CoverPhotoImg { get; set; }
 
 		#region UserId Annotations
 

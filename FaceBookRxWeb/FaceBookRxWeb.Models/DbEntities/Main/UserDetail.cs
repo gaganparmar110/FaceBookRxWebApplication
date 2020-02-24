@@ -67,7 +67,7 @@ namespace FaceBookRxWeb.Models.Main
 		#region ApplicationObject Annotations
 
         [ForeignKey(nameof(RelationshipAO))]
-        [InverseProperty(nameof(FaceBookRxWeb.Models.Main.ApplicationObject.UserDetails))]
+        [InverseProperty(nameof(FaceBookRxWeb.Models.Main.ApplicationObject.UserDetail))]
 		#endregion ApplicationObject Annotations
 
         public virtual ApplicationObject ApplicationObject { get; set; }

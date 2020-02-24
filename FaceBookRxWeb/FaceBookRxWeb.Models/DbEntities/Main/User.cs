@@ -79,7 +79,7 @@ namespace FaceBookRxWeb.Models.Main
         [Required]
 		#endregion StatusId Annotations
 
-        public Status StatusId { get; set; }
+        public int StatusId { get; set; }
 
 		#region ApplicationUserTokens Annotations
 

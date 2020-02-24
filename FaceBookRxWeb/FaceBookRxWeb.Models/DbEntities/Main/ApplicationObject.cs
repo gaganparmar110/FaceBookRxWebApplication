@@ -43,6 +43,8 @@ namespace FaceBookRxWeb.Models.Main
 
         public int StatusId { get; set; }
 
+        public int UserDetail { get; set; }
+
 		#region ApplicationObjectType Annotations
 
         [ForeignKey(nameof(ApplicationObjectTypeId))]

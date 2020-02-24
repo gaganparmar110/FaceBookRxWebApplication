@@ -8,7 +8,9 @@ using RxWeb.Core;
 using FaceBookRxWeb.UnitOfWork.DbEntityAudit;
 using FaceBookRxWeb.BoundedContext.Main;
 using FaceBookRxWeb.UnitOfWork.Main;
-#endregion Namespace
+using FaceBookRxWeb.Domain.Module;
+            #endregion Namespace
+
 
 
 
@@ -30,13 +32,34 @@ namespace FaceBookRxWeb.Api.Bootstrap
 
             serviceCollection.AddScoped<ILoginContext, LoginContext>();
             serviceCollection.AddScoped<ILoginUow, LoginUow>();
+                        serviceCollection.AddScoped<IPostContext, PostContext>();
+            serviceCollection.AddScoped<IPostUow, PostUow>();
             #endregion ContextService
+
 
 
 
             #region DomainService
 
+            
+            serviceCollection.AddScoped<IPostLikeDomain, PostLikeDomain>();
+            
+            serviceCollection.AddScoped<IPostCommentDomain, PostCommentDomain>();
+            
+            serviceCollection.AddScoped<IPostShareDomain, PostShareDomain>();
+            
+            serviceCollection.AddScoped<IPostMessageDomain, PostMessageDomain>();
+            
+            serviceCollection.AddScoped<IPostDomain, PostDomain>();
+            
+            serviceCollection.AddScoped<IPostCaptionDomain, PostCaptionDomain>();
             #endregion DomainService
+
+
+
+
+
+
         }
     }
 }
