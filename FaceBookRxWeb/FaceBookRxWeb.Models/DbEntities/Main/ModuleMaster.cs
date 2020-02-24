@@ -4,48 +4,47 @@ using System.ComponentModel.DataAnnotations.Schema;
 using RxWeb.Core.Annotations;
 using RxWeb.Core.Data.Annotations;
 using RxWeb.Core.Sanitizers;
-using FaceBookRxWeb.Models.Enums.Main;
 using FaceBookRxWeb.BoundedContext.SqlContext;
 namespace FaceBookRxWeb.Models.Main
 {
-    [Table("ModuleMasters", Schema = "dbo")]
+    [Table("ModuleMasters",Schema="dbo")]
     public partial class ModuleMaster
     {
-        #region ModuleMasterId Annotations
+		#region ModuleMasterId Annotations
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [System.ComponentModel.DataAnnotations.Key]
-        #endregion ModuleMasterId Annotations
+		#endregion ModuleMasterId Annotations
 
         public int ModuleMasterId { get; set; }
 
-        #region ModuleMasterName Annotations
+		#region ModuleMasterName Annotations
 
         [Required]
         [MaxLength(100)]
-        #endregion ModuleMasterName Annotations
+		#endregion ModuleMasterName Annotations
 
         public string ModuleMasterName { get; set; }
 
-        #region StatusId Annotations
+		#region StatusId Annotations
 
         [Range(1, int.MaxValue)]
         [Required]
-        #endregion StatusId Annotations
+		#endregion StatusId Annotations
 
         public Status StatusId { get; set; }
 
-        #region ApplicationModules Annotations
+		#region ApplicationModules Annotations
 
         [InverseProperty("ModuleMaster")]
-        #endregion ApplicationModules Annotations
+		#endregion ApplicationModules Annotations
 
         public virtual ICollection<ApplicationModule> ApplicationModules { get; set; }
 
 
         public ModuleMaster()
         {
-            ApplicationModules = new HashSet<ApplicationModule>();
+			ApplicationModules = new HashSet<ApplicationModule>();
         }
-    }
+	}
 }

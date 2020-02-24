@@ -4,36 +4,35 @@ using System.ComponentModel.DataAnnotations.Schema;
 using RxWeb.Core.Annotations;
 using RxWeb.Core.Data.Annotations;
 using RxWeb.Core.Sanitizers;
-using FaceBookRxWeb.Models.Enums.Main;
 using FaceBookRxWeb.BoundedContext.SqlContext;
 namespace FaceBookRxWeb.Models.Main
 {
-    [Table("ComponentLanguageContents", Schema = "dbo")]
+    [Table("ComponentLanguageContents",Schema="dbo")]
     public partial class ComponentLanguageContent
     {
-        #region ComponentLanguageContentId Annotations
+		#region ComponentLanguageContentId Annotations
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [System.ComponentModel.DataAnnotations.Key]
-        #endregion ComponentLanguageContentId Annotations
+		#endregion ComponentLanguageContentId Annotations
 
         public int ComponentLanguageContentId { get; set; }
 
-        #region ComponentKeyId Annotations
+		#region ComponentKeyId Annotations
 
         [Range(1, int.MaxValue)]
         [Required]
-        [RelationshipTableAttribue("LanguageContentKeys", "dbo", "", "ComponentKeyId")]
-        #endregion ComponentKeyId Annotations
+        [RelationshipTableAttribue("LanguageContentKeys","dbo","","ComponentKeyId")]
+		#endregion ComponentKeyId Annotations
 
         public int ComponentKeyId { get; set; }
 
-        #region LanguageContentId Annotations
+		#region LanguageContentId Annotations
 
         [Range(1, int.MaxValue)]
         [Required]
-        [RelationshipTableAttribue("LanguageContents", "dbo", "", "LanguageContentId")]
-        #endregion LanguageContentId Annotations
+        [RelationshipTableAttribue("LanguageContents","dbo","","LanguageContentId")]
+		#endregion LanguageContentId Annotations
 
         public int LanguageContentId { get; set; }
 
@@ -43,19 +42,19 @@ namespace FaceBookRxWeb.Models.Main
 
         public string Fr { get; set; }
 
-        #region LanguageContentKey Annotations
+		#region LanguageContentKey Annotations
 
         [ForeignKey(nameof(ComponentKeyId))]
         [InverseProperty(nameof(FaceBookRxWeb.Models.Main.LanguageContentKey.ComponentLanguageContents))]
-        #endregion LanguageContentKey Annotations
+		#endregion LanguageContentKey Annotations
 
         public virtual LanguageContentKey LanguageContentKey { get; set; }
 
-        #region LanguageContent Annotations
+		#region LanguageContent Annotations
 
         [ForeignKey(nameof(LanguageContentId))]
         [InverseProperty(nameof(FaceBookRxWeb.Models.Main.LanguageContent.ComponentLanguageContents))]
-        #endregion LanguageContent Annotations
+		#endregion LanguageContent Annotations
 
         public virtual LanguageContent LanguageContent { get; set; }
 
@@ -63,5 +62,5 @@ namespace FaceBookRxWeb.Models.Main
         public ComponentLanguageContent()
         {
         }
-    }
+	}
 }

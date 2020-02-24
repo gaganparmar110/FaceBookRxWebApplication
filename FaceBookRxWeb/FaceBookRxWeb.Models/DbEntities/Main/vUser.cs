@@ -7,14 +7,14 @@ using RxWeb.Core.Sanitizers;
 using FaceBookRxWeb.BoundedContext.SqlContext;
 namespace FaceBookRxWeb.Models.Main
 {
-    [Table("vUsers", Schema = "dbo")]
+    [Table("vUsers",Schema="dbo")]
     public partial class vUser
     {
-        #region UserId Annotations
+		#region UserId Annotations
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [System.ComponentModel.DataAnnotations.Key]
-        #endregion UserId Annotations
+		#endregion UserId Annotations
 
         public int UserId { get; set; }
 
@@ -43,5 +43,5 @@ namespace FaceBookRxWeb.Models.Main
         public vUser()
         {
         }
-    }
+	}
 }

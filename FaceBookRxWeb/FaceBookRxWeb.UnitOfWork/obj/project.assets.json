@@ -6377,11 +6377,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.UnitOfWork\\FaceBookRxWeb.UnitOfWork.csproj",
+      "projectUniqueName": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.UnitOfWork\\FaceBookRxWeb.UnitOfWork.csproj",
       "projectName": "FaceBookRxWeb.UnitOfWork",
-      "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.UnitOfWork\\FaceBookRxWeb.UnitOfWork.csproj",
+      "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.UnitOfWork\\FaceBookRxWeb.UnitOfWork.csproj",
       "packagesPath": "C:\\Users\\Gagan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.UnitOfWork\\obj\\",
+      "outputPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.UnitOfWork\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gagan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6397,8 +6397,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\FaceBookRxWeb.BoundedContext.csproj": {
-              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\FaceBookRxWeb.BoundedContext.csproj"
+            "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\FaceBookRxWeb.BoundedContext.csproj": {
+              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\FaceBookRxWeb.BoundedContext.csproj"
             }
           }
         }

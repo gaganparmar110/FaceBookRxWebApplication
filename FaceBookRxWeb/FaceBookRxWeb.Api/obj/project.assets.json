@@ -2131,7 +2131,10 @@
         },
         "runtime": {
           "bin/placeholder/FaceBookRxWeb.Domain.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "FaceBookRxWeb.Infrastructure/1.0.0": {
         "type": "project",
@@ -2151,7 +2154,10 @@
         },
         "runtime": {
           "bin/placeholder/FaceBookRxWeb.Infrastructure.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "FaceBookRxWeb.Models/1.0.0": {
         "type": "project",
@@ -7216,11 +7222,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.Api\\FaceBookRxWeb.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Api\\FaceBookRxWeb.Api.csproj",
       "projectName": "FaceBookRxWeb.Api",
-      "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.Api\\FaceBookRxWeb.Api.csproj",
+      "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Api\\FaceBookRxWeb.Api.csproj",
       "packagesPath": "C:\\Users\\Gagan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.Api\\obj\\",
+      "outputPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gagan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7236,20 +7242,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\FaceBookRxWeb.BoundedContext.csproj": {
-              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\FaceBookRxWeb.BoundedContext.csproj"
+            "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\FaceBookRxWeb.BoundedContext.csproj": {
+              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.BoundedContext\\FaceBookRxWeb.BoundedContext.csproj"
             },
-            "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.Domain\\FaceBookRxWeb.Domain.csproj": {
-              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.Domain\\FaceBookRxWeb.Domain.csproj"
+            "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Domain\\FaceBookRxWeb.Domain.csproj": {
+              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Domain\\FaceBookRxWeb.Domain.csproj"
             },
-            "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.Infrastructure\\FaceBookRxWeb.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.Infrastructure\\FaceBookRxWeb.Infrastructure.csproj"
+            "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Infrastructure\\FaceBookRxWeb.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Infrastructure\\FaceBookRxWeb.Infrastructure.csproj"
             },
-            "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj": {
-              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj"
+            "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj": {
+              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.Models\\FaceBookRxWeb.Models.csproj"
             },
-            "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.UnitOfWork\\FaceBookRxWeb.UnitOfWork.csproj": {
-              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWeb\\FaceBookRxWeb.UnitOfWork\\FaceBookRxWeb.UnitOfWork.csproj"
+            "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.UnitOfWork\\FaceBookRxWeb.UnitOfWork.csproj": {
+              "projectPath": "C:\\Users\\Gagan\\source\\repos\\FaceBookRxWebApplication\\FaceBookRxWeb\\FaceBookRxWeb.UnitOfWork\\FaceBookRxWeb.UnitOfWork.csproj"
             }
           }
         }

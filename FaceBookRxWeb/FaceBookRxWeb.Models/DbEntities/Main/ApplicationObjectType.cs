@@ -4,48 +4,47 @@ using System.ComponentModel.DataAnnotations.Schema;
 using RxWeb.Core.Annotations;
 using RxWeb.Core.Data.Annotations;
 using RxWeb.Core.Sanitizers;
-using FaceBookRxWeb.Models.Enums.Main;
 using FaceBookRxWeb.BoundedContext.SqlContext;
 namespace FaceBookRxWeb.Models.Main
 {
-    [Table("ApplicationObjectTypes", Schema = "dbo")]
+    [Table("ApplicationObjectTypes",Schema="dbo")]
     public partial class ApplicationObjectType
     {
-        #region ApplicationObjectTypeId Annotations
+		#region ApplicationObjectTypeId Annotations
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [System.ComponentModel.DataAnnotations.Key]
-        #endregion ApplicationObjectTypeId Annotations
+		#endregion ApplicationObjectTypeId Annotations
 
         public int ApplicationObjectTypeId { get; set; }
 
-        #region ApplicationObjectTypeName Annotations
+		#region ApplicationObjectTypeName Annotations
 
         [Required]
         [MaxLength(100)]
-        #endregion ApplicationObjectTypeName Annotations
+		#endregion ApplicationObjectTypeName Annotations
 
         public string ApplicationObjectTypeName { get; set; }
 
-        #region StatusId Annotations
+		#region StatusId Annotations
 
         [Range(1, int.MaxValue)]
         [Required]
-        #endregion StatusId Annotations
+		#endregion StatusId Annotations
 
         public int StatusId { get; set; }
 
-        #region ApplicationObjects Annotations
+		#region ApplicationObjects Annotations
 
         [InverseProperty("ApplicationObjectType")]
-        #endregion ApplicationObjects Annotations
+		#endregion ApplicationObjects Annotations
 
         public virtual ICollection<ApplicationObject> ApplicationObjects { get; set; }
 
 
         public ApplicationObjectType()
         {
-            ApplicationObjects = new HashSet<ApplicationObject>();
+			ApplicationObjects = new HashSet<ApplicationObject>();
         }
-    }
+	}
 }

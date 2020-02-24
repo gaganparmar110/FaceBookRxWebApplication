@@ -4,51 +4,50 @@ using System.ComponentModel.DataAnnotations.Schema;
 using RxWeb.Core.Annotations;
 using RxWeb.Core.Data.Annotations;
 using RxWeb.Core.Sanitizers;
-using FaceBookRxWeb.Models.Enums.Main;
 using FaceBookRxWeb.BoundedContext.SqlContext;
 namespace FaceBookRxWeb.Models.Main
 {
-    [Table("ApplicationObjects", Schema = "dbo")]
+    [Table("ApplicationObjects",Schema="dbo")]
     public partial class ApplicationObject
     {
-        #region ApplicationObjectId Annotations
+		#region ApplicationObjectId Annotations
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [System.ComponentModel.DataAnnotations.Key]
-        #endregion ApplicationObjectId Annotations
+		#endregion ApplicationObjectId Annotations
 
         public int ApplicationObjectId { get; set; }
 
-        #region ApplicationObjectTypeId Annotations
+		#region ApplicationObjectTypeId Annotations
 
         [Range(1, int.MaxValue)]
         [Required]
-        [RelationshipTableAttribue("ApplicationObjectTypes", "dbo", "", "ApplicationObjectTypeId")]
-        #endregion ApplicationObjectTypeId Annotations
+        [RelationshipTableAttribue("ApplicationObjectTypes","dbo","","ApplicationObjectTypeId")]
+		#endregion ApplicationObjectTypeId Annotations
 
         public int ApplicationObjectTypeId { get; set; }
 
-        #region ApplicationObjectName Annotations
+		#region ApplicationObjectName Annotations
 
         [Required]
         [MaxLength(100)]
-        #endregion ApplicationObjectName Annotations
+		#endregion ApplicationObjectName Annotations
 
         public string ApplicationObjectName { get; set; }
 
-        #region StatusId Annotations
+		#region StatusId Annotations
 
         [Range(1, int.MaxValue)]
         [Required]
-        #endregion StatusId Annotations
+		#endregion StatusId Annotations
 
         public int StatusId { get; set; }
 
-        #region ApplicationObjectType Annotations
+		#region ApplicationObjectType Annotations
 
         [ForeignKey(nameof(ApplicationObjectTypeId))]
         [InverseProperty(nameof(FaceBookRxWeb.Models.Main.ApplicationObjectType.ApplicationObjects))]
-        #endregion ApplicationObjectType Annotations
+		#endregion ApplicationObjectType Annotations
 
         public virtual ApplicationObjectType ApplicationObjectType { get; set; }
 
@@ -56,5 +55,5 @@ namespace FaceBookRxWeb.Models.Main
         public ApplicationObject()
         {
         }
-    }
+	}
 }

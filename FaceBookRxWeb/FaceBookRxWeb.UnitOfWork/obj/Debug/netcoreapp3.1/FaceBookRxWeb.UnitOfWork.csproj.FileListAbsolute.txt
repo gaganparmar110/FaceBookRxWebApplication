@@ -1,0 +1,13 @@
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication\FaceBookRxWeb\FaceBookRxWeb.UnitOfWork\bin\Debug\netcoreapp3.1\FaceBookRxWeb.UnitOfWork.deps.json
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication\FaceBookRxWeb\FaceBookRxWeb.UnitOfWork\bin\Debug\netcoreapp3.1\FaceBookRxWeb.UnitOfWork.dll
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication\FaceBookRxWeb\FaceBookRxWeb.UnitOfWork\bin\Debug\netcoreapp3.1\FaceBookRxWeb.UnitOfWork.pdb
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication\FaceBookRxWeb\FaceBookRxWeb.UnitOfWork\bin\Debug\netcoreapp3.1\FaceBookRxWeb.BoundedContext.dll
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication\FaceBookRxWeb\FaceBookRxWeb.UnitOfWork\bin\Debug\netcoreapp3.1\FaceBookRxWeb.Models.dll
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication\FaceBookRxWeb\FaceBookRxWeb.UnitOfWork\bin\Debug\netcoreapp3.1\FaceBookRxWeb.BoundedContext.pdb
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication\FaceBookRxWeb\FaceBookRxWeb.UnitOfWork\bin\Debug\netcoreapp3.1\FaceBookRxWeb.Models.pdb
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication\FaceBookRxWeb\FaceBookRxWeb.UnitOfWork\obj\Debug\netcoreapp3.1\FaceBookRxWeb.UnitOfWork.csprojAssemblyReference.cache
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication\FaceBookRxWeb\FaceBookRxWeb.UnitOfWork\obj\Debug\netcoreapp3.1\FaceBookRxWeb.UnitOfWork.AssemblyInfoInputs.cache
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication\FaceBookRxWeb\FaceBookRxWeb.UnitOfWork\obj\Debug\netcoreapp3.1\FaceBookRxWeb.UnitOfWork.AssemblyInfo.cs
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication\FaceBookRxWeb\FaceBookRxWeb.UnitOfWork\obj\Debug\netcoreapp3.1\FaceBookRxWeb.UnitOfWork.csproj.CopyComplete
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication\FaceBookRxWeb\FaceBookRxWeb.UnitOfWork\obj\Debug\netcoreapp3.1\FaceBookRxWeb.UnitOfWork.dll
+C:\Users\Gagan\source\repos\FaceBookRxWebApplication\FaceBookRxWeb\FaceBookRxWeb.UnitOfWork\obj\Debug\netcoreapp3.1\FaceBookRxWeb.UnitOfWork.pdb

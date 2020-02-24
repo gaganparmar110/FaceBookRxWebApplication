@@ -4,56 +4,55 @@ using System.ComponentModel.DataAnnotations.Schema;
 using RxWeb.Core.Annotations;
 using RxWeb.Core.Data.Annotations;
 using RxWeb.Core.Sanitizers;
-using FaceBookRxWeb.Models.Enums.Main;
 using FaceBookRxWeb.BoundedContext.SqlContext;
 namespace FaceBookRxWeb.Models.Main
 {
-    [Table("Roles", Schema = "dbo")]
+    [Table("Roles",Schema="dbo")]
     public partial class Role
     {
-        #region RoleId Annotations
+		#region RoleId Annotations
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [System.ComponentModel.DataAnnotations.Key]
-        #endregion RoleId Annotations
+		#endregion RoleId Annotations
 
         public int RoleId { get; set; }
 
-        #region RoleName Annotations
+		#region RoleName Annotations
 
         [Required]
         [MaxLength(50)]
-        #endregion RoleName Annotations
+		#endregion RoleName Annotations
 
         public string RoleName { get; set; }
 
-        #region StatusId Annotations
+		#region StatusId Annotations
 
         [Range(1, int.MaxValue)]
         [Required]
-        #endregion StatusId Annotations
+		#endregion StatusId Annotations
 
         public Status StatusId { get; set; }
 
-        #region UserRoles Annotations
+		#region UserRoles Annotations
 
         [InverseProperty("Role")]
-        #endregion UserRoles Annotations
+		#endregion UserRoles Annotations
 
         public virtual ICollection<UserRole> UserRoles { get; set; }
 
-        #region RolePermissions Annotations
+		#region RolePermissions Annotations
 
         [InverseProperty("Role")]
-        #endregion RolePermissions Annotations
+		#endregion RolePermissions Annotations
 
         public virtual ICollection<RolePermission> RolePermissions { get; set; }
 
 
         public Role()
         {
-            UserRoles = new HashSet<UserRole>();
-            RolePermissions = new HashSet<RolePermission>();
+			UserRoles = new HashSet<UserRole>();
+			RolePermissions = new HashSet<RolePermission>();
         }
-    }
+	}
 }

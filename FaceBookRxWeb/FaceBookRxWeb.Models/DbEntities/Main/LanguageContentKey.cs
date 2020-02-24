@@ -4,55 +4,54 @@ using System.ComponentModel.DataAnnotations.Schema;
 using RxWeb.Core.Annotations;
 using RxWeb.Core.Data.Annotations;
 using RxWeb.Core.Sanitizers;
-using FaceBookRxWeb.Models.Enums.Main;
 using FaceBookRxWeb.BoundedContext.SqlContext;
 namespace FaceBookRxWeb.Models.Main
 {
-    [Table("LanguageContentKeys", Schema = "dbo")]
+    [Table("LanguageContentKeys",Schema="dbo")]
     public partial class LanguageContentKey
     {
-        #region LanguageContentKeyId Annotations
+		#region LanguageContentKeyId Annotations
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [System.ComponentModel.DataAnnotations.Key]
-        #endregion LanguageContentKeyId Annotations
+		#endregion LanguageContentKeyId Annotations
 
         public int LanguageContentKeyId { get; set; }
 
-        #region KeyName Annotations
+		#region KeyName Annotations
 
         [Required]
         [MaxLength(50)]
-        #endregion KeyName Annotations
+		#endregion KeyName Annotations
 
         public string KeyName { get; set; }
 
-        #region IsComponent Annotations
+		#region IsComponent Annotations
 
         [Required]
-        #endregion IsComponent Annotations
+		#endregion IsComponent Annotations
 
         public bool IsComponent { get; set; }
 
-        #region LanguageContents Annotations
+		#region LanguageContents Annotations
 
         [InverseProperty("LanguageContentKey")]
-        #endregion LanguageContents Annotations
+		#endregion LanguageContents Annotations
 
         public virtual ICollection<LanguageContent> LanguageContents { get; set; }
 
-        #region ComponentLanguageContents Annotations
+		#region ComponentLanguageContents Annotations
 
         [InverseProperty("LanguageContentKey")]
-        #endregion ComponentLanguageContents Annotations
+		#endregion ComponentLanguageContents Annotations
 
         public virtual ICollection<ComponentLanguageContent> ComponentLanguageContents { get; set; }
 
 
         public LanguageContentKey()
         {
-            LanguageContents = new HashSet<LanguageContent>();
-            ComponentLanguageContents = new HashSet<ComponentLanguageContent>();
+			LanguageContents = new HashSet<LanguageContent>();
+			ComponentLanguageContents = new HashSet<ComponentLanguageContent>();
         }
-    }
+	}
 }
